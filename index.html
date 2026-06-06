@@ -397,33 +397,33 @@ const PREF_IDS = ['shell','omv','orlen','mol'];
 
 const NETWORKS = [
   { id:'mol',     short:'MOL',  name:'MOL',            color:'#00843D', tc:'#fff',
-    pub_b:41.9, pub_n:39.5, dkv_b:43.33, dkv_n:44.17 },
+    pub_b:41.8, pub_n:39.9, dkv_b:43.33, dkv_n:44.17 },
   { id:'shell',   short:'SHL',  name:'Shell',           color:'#FBCE07', tc:'#DD1D21',
     pub_b:41.5, pub_n:39.3, dkv_b:null,  dkv_n:null  },
   { id:'omv',     short:'OMV',  name:'OMV',             color:'#1565C0', tc:'#fff',
-    pub_b:39.3, pub_n:41.9, dkv_b:43.63, dkv_n:44.57 },
+    pub_b:41.6, pub_n:39.9, dkv_b:43.63, dkv_n:44.57 },
   { id:'orlen',   short:'ORL',  name:'ORLEN',           color:'#E4001B', tc:'#fff',
     pub_b:41.9, pub_n:39.3, dkv_b:42.87, dkv_n:44.09 },
   { id:'euroil',  short:'EUR',  name:'EuroOil',         color:'#F97316', tc:'#fff',
     pub_b:40.5, pub_n:37.9, dkv_b:40.32, dkv_n:40.63 },
   { id:'tankono', short:'ONO',  name:'Tank ONO',         color:'#1E293B', tc:'#F59E0B',
-    pub_b:38.9, pub_n:39.97, dkv_b:39.26, dkv_n:40.16 },
+    pub_b:38.5, pub_n:35.9, dkv_b:39.26, dkv_n:40.16 },
   { id:'f1',      short:'F1',   name:'F1 / TT Petrol',  color:'#DC2626', tc:'#fff',
     pub_b:41.5, pub_n:37.9, dkv_b:38.60, dkv_n:42.37 },
   { id:'agropod', short:'AGR',  name:'AGROPODNIK',      color:'#15803D', tc:'#fff',
-    pub_b:42.2, pub_n:39.1, dkv_b:41.52, dkv_n:42.75 },
+    pub_b:41.6, pub_n:37.7, dkv_b:41.52, dkv_n:42.75 },
   { id:'armex',   short:'ARX',  name:'ARMEX',            color:'#7C3AED', tc:'#fff',
-    pub_b:42.2, pub_n:39.1, dkv_b:40.56, dkv_n:43.08 },
+    pub_b:41.6, pub_n:37.7, dkv_b:40.56, dkv_n:43.08 },
   { id:'eurobit', short:'EBT',  name:'EUROBIT',          color:'#0369A1', tc:'#fff',
-    pub_b:41.5, pub_n:38.5, dkv_b:null,  dkv_n:null  },
+    pub_b:41.5, pub_n:37.9, dkv_b:null,  dkv_n:null  },
   { id:'globus',  short:'GLB',  name:'Globus',           color:'#BE123C', tc:'#fff',
     pub_b:40.9, pub_n:37.9, dkv_b:null,  dkv_n:null  },
   { id:'prim',    short:'PRM',  name:'Prim',             color:'#0891B2', tc:'#fff',
     pub_b:39.9, pub_n:36.9, dkv_b:null,  dkv_n:null  },
   { id:'papoil',  short:'PAP',  name:'Pap Oil',          color:'#EA580C', tc:'#fff',
-    pub_b:41.89, pub_n:39.97, dkv_b:null,  dkv_n:null  },
+    pub_b:41.64, pub_n:40.04, dkv_b:null,  dkv_n:null  },
   { id:'avia',    short:'AVI',  name:'AVIA',              color:'#CA8A04', tc:'#fff',
-    pub_b:40.6, pub_n:36.6, dkv_b:null,  dkv_n:null  },
+    pub_b:39.6, pub_n:36.6, dkv_b:null,  dkv_n:null  },
 ];
 
 
@@ -789,7 +789,7 @@ function refreshMarkers() {
           '<div class="pg-pub">' + pb('Veřejná cena', pub, pubBetter) + '</div>' +
           '<div class="pg-dkv">' + pb('DKV cena', dkv, !pubBetter) + '</div>' +
         '</div>' +
-        '<div class="pnote">PUB: mBenzin.cz · aktualizováno 05. 06. 2026<br>Cenový strop MF: ' + strop + ' Kč/l · 28. 4. 2026</div>',
+        '<div class="pnote">PUB: mBenzin.cz · aktualizováno 06. 06. 2026<br>Cenový strop MF: ' + strop + ' Kč/l · 28. 4. 2026</div>',
         net.color
       );
     });
