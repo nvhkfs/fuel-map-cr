@@ -397,11 +397,11 @@ const PREF_IDS = ['shell','omv','orlen','mol'];
 
 const NETWORKS = [
   { id:'mol',     short:'MOL',  name:'MOL',            color:'#00843D', tc:'#fff',
-    pub_b:40.4, pub_n:36.2, dkv_b:43.33, dkv_n:44.17 },
+    pub_b:40.4, pub_n:36.4, dkv_b:43.33, dkv_n:44.17 },
   { id:'shell',   short:'SHL',  name:'Shell',           color:'#FBCE07', tc:'#DD1D21',
-    pub_b:40.4, pub_n:36.2, dkv_b:null,  dkv_n:null  },
+    pub_b:40.4, pub_n:36.4, dkv_b:null,  dkv_n:null  },
   { id:'omv',     short:'OMV',  name:'OMV',             color:'#1565C0', tc:'#fff',
-    pub_b:40.4, pub_n:36.6, dkv_b:43.63, dkv_n:44.57 },
+    pub_b:40.4, pub_n:36.4, dkv_b:43.63, dkv_n:44.57 },
   { id:'orlen',   short:'ORL',  name:'ORLEN',           color:'#E4001B', tc:'#fff',
     pub_b:40.2, pub_n:39.4, dkv_b:42.87, dkv_n:44.09 },
   { id:'euroil',  short:'EUR',  name:'EuroOil',         color:'#F97316', tc:'#fff',
@@ -789,7 +789,7 @@ function refreshMarkers() {
           '<div class="pg-pub">' + pb('Veřejná cena', pub, pubBetter) + '</div>' +
           '<div class="pg-dkv">' + pb('DKV cena', dkv, !pubBetter) + '</div>' +
         '</div>' +
-        '<div class="pnote">PUB: mBenzin.cz · aktualizováno 27. 06. 2026<br>Cenový strop MF: ' + strop + ' Kč/l · 28. 4. 2026</div>',
+        '<div class="pnote">PUB: mBenzin.cz · aktualizováno 28. 06. 2026<br>Cenový strop MF: ' + strop + ' Kč/l · 28. 4. 2026</div>',
         net.color
       );
     });
